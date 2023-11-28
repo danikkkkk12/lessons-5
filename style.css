@@ -1,0 +1,38 @@
+:root{
+    --color-for-hover-a: #03A9F4;
+    --color-for-nav: #7D7D7D;
+    --color-for-card-title: #B4AD9E;
+    --color-for-article: #626262;
+}
+   
+.header-content{
+    list-style: none;
+    font-family: 'Playfair Display', serif;
+    /* color: var(--color-for-nav); */
+}
+.item-link{
+    text-decoration: none;
+    color: var(--color-for-nav);
+}
+.item-link:hover{
+    color: var(--color-for-hover-a);
+}
+.card-ittem{
+    list-style: none;
+}
+.span-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: var(--color-for-card-title);
+}
+.title-card{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+.description{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+}
+.active{
+    color: var(--color-for-hover-a);
+}
