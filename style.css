@@ -36,3 +36,16 @@
 .active{
     color: var(--color-for-hover-a);
 }
+.container{
+    width: 906px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+.button{
+    font-size: 14px;
+}
+.btn-wrapper{
+    margin: 0 auto;
+    display: flex;
+    width: 200px;
+}
