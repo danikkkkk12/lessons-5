@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -46,7 +47,7 @@
                         ut
                         aliquip ex ea.</p>
                 </li>
-                <li class="card-ittem"><img src="photo/3.jpg" alt="happy friendly"><span
+                <li class="card-ittem" data-aos="zoom-out-up"><img src="photo/3.jpg" alt="happy friendly"><span
                         class="span-title">PHOTODAIRY</span>
                     <h3 class="title-card">American dream</h3>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -56,7 +57,8 @@
                         ut
                         aliquip ex ea.</p>
                 </li>
-                <li class="card-ittem"><img src="photo/4.jpg" alt=""><span class="span-title">PHOTODAIRY</span>
+                <li class="card-ittem" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"><img
+                        src="photo/4.jpg" alt=""><span class="span-title">PHOTODAIRY</span>
                     <h3 class="title-card">A day exploring the Alps</h3>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor
@@ -65,7 +67,8 @@
                         ut
                         aliquip ex ea.</p>
                 </li>
-                <li class="card-ittem"><img src="photo/5.jpg" alt=""><span class="span-title">LIFESTYLE</span>
+                <li class="card-ittem" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="photo/5.jpg" alt=""><span class="span-title">LIFESTYLE</span>
                     <h3 class="title-card">Top 10 song for running</h3>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor
@@ -74,7 +77,8 @@
                         ut
                         aliquip ex ea.</p>
                 </li>
-                <li class="card-ittem"><img src="photo/6.jpg" alt=""><span class="span-title">LIFESTYLE</span>
+                <li class="card-ittem" data-aos="zoom-in-right"><img src="photo/6.jpg" alt=""><span
+                        class="span-title">LIFESTYLE</span>
                     <h3 class="title-card">Cold winter days</h3>
                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor
@@ -87,6 +91,10 @@
             <div class="btn-wrapper"><button class="button">Load more</button></div>
         </main>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
