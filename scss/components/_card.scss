@@ -1,0 +1,36 @@
+.list-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 63px;
+  padding-left: 0;
+  justify-content: center;
+}
+
+.card-ittem {
+  list-style: none;
+  width: 420px;
+  height: 546px;
+  // outline: 1px solid $color-outline;
+
+  .span-title {
+    font-family: $fonts-Ubuntu;
+    font-size: 14px;
+    color: $color-for-card-title;
+  }
+  .img-card{
+    margin-bottom: 32px;
+  }
+  .title-card {
+    font-family: $fonts-Playfair-Display;
+    font-size: 30px;
+    font-weight: 400;
+    color: $color-for-article;
+  }
+
+  .description {
+    font-family: $fonts-Playfair-Display;
+    font-size: 14px;
+    font-weight: 400;
+    color: $color-for-article;
+  }
+}

@@ -1,0 +1,79 @@
+/*------------------------------------------- fonts ---------------------------------*/
+.container {
+  width: 906px;
+  margin: 0 auto;
+}
+
+.menu-list {
+  gap: 100px;
+  margin-left: 186px;
+  padding-left: 0;
+  margin-bottom: 92px;
+  display: flex;
+}
+
+.header-content {
+  list-style: none;
+  font-family: "Playfair Display", serif;
+}
+.header-content .item-link {
+  text-decoration: none;
+  color: #7D7D7D;
+}
+.header-content .item-link:hover {
+  color: #03A9F4;
+}
+.header-content .active {
+  color: #03A9F4;
+}
+
+.list-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 63px;
+  padding-left: 0;
+  justify-content: center;
+}
+
+.card-ittem {
+  list-style: none;
+  width: 420px;
+  height: 546px;
+}
+.card-ittem .span-title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  color: #B4AD9E;
+}
+.card-ittem .img-card {
+  margin-bottom: 32px;
+}
+.card-ittem .title-card {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #626262;
+}
+.card-ittem .description {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #626262;
+}
+
+.button {
+  font-size: 14px;
+  padding: 20px 48px 21px 49px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #626262;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(216, 215, 215);
+}
+
+.btn-wrapper {
+  margin: 0 auto;
+  display: flex;
+  width: 200px;
+}/*# sourceMappingURL=main.css.map */

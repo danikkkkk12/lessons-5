@@ -1,0 +1,16 @@
+.button {
+  font-size: 14px;
+  padding: 20px 48px 21px 49px;
+  background-color: $color-white;
+  border: 1px solid $color-for-article;
+  cursor: pointer;
+  &:hover{
+    background-color: $color-white-grey;
+  }
+}
+
+.btn-wrapper {
+  margin: 0 auto;
+  display: flex;
+  width: 200px;
+}
