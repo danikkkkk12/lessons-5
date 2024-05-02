@@ -15,14 +15,11 @@
   list-style: none;
   font-family: "Playfair Display", serif;
 }
-.menu-list__item__link {
+.menu-list__link {
   text-decoration: none;
   color: #7D7D7D;
 }
-.menu-list__item__link:hover {
-  color: #03A9F4;
-}
-.menu-list__item--active {
+.menu-list__link:hover {
   color: #03A9F4;
 }
 

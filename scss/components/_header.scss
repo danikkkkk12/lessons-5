@@ -8,17 +8,13 @@
   &__item {
     list-style: none;
     font-family: $fonts-Playfair-Display;
+  }
 
-    &__link {
-      text-decoration: none;
-      color: $color-for-nav;
+  &__link {
+    text-decoration: none;
+    color: $color-for-nav;
 
-      &:hover {
-        color: $color-for-hover-a;
-      }
-    }
-
-    &--active {
+    &:hover {
       color: $color-for-hover-a;
     }
   }
