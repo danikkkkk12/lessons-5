@@ -4,21 +4,22 @@
   padding-left: 0;
   margin-bottom: 92px;
   display: flex;
-}
 
-.header-content {
-  list-style: none;
-  font-family: $fonts-Playfair-Display;
-    .item-link{
+  &__item {
+    list-style: none;
+    font-family: $fonts-Playfair-Display;
+
+    &__link {
       text-decoration: none;
       color: $color-for-nav;
-      &:hover{
+
+      &:hover {
         color: $color-for-hover-a;
       }
     }
-    .active{
+
+    &--active {
       color: $color-for-hover-a;
     }
   }
-
-
+}

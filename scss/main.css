@@ -11,23 +11,22 @@
   margin-bottom: 92px;
   display: flex;
 }
-
-.header-content {
+.menu-list__item {
   list-style: none;
   font-family: "Playfair Display", serif;
 }
-.header-content .item-link {
+.menu-list__item__link {
   text-decoration: none;
   color: #7D7D7D;
 }
-.header-content .item-link:hover {
+.menu-list__item__link:hover {
   color: #03A9F4;
 }
-.header-content .active {
+.menu-list__item--active {
   color: #03A9F4;
 }
 
-.list-card {
+.card {
   display: flex;
   flex-wrap: wrap;
   gap: 63px;
@@ -35,26 +34,26 @@
   justify-content: center;
 }
 
-.card-ittem {
+.card__item {
   list-style: none;
   width: 420px;
   height: 546px;
 }
-.card-ittem .span-title {
+.card__item .card__span {
   font-family: "Ubuntu", sans-serif;
   font-size: 14px;
   color: #B4AD9E;
 }
-.card-ittem .img-card {
+.card__item .card__image {
   margin-bottom: 32px;
 }
-.card-ittem .title-card {
+.card__item .card__title {
   font-family: "Playfair Display", serif;
   font-size: 30px;
   font-weight: 400;
   color: #626262;
 }
-.card-ittem .description {
+.card__item .card__description {
   font-family: "Playfair Display", serif;
   font-size: 14px;
   font-weight: 400;

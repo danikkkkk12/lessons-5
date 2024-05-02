@@ -1,4 +1,4 @@
-.list-card {
+.card {
   display: flex;
   flex-wrap: wrap;
   gap: 63px;
@@ -6,28 +6,28 @@
   justify-content: center;
 }
 
-.card-ittem {
+.card__item {
   list-style: none;
   width: 420px;
   height: 546px;
   // outline: 1px solid $color-outline;
 
-  .span-title {
+  .card__span {
     font-family: $fonts-Ubuntu;
     font-size: 14px;
     color: $color-for-card-title;
   }
-  .img-card{
+  .card__image{
     margin-bottom: 32px;
   }
-  .title-card {
+  .card__title {
     font-family: $fonts-Playfair-Display;
     font-size: 30px;
     font-weight: 400;
     color: $color-for-article;
   }
 
-  .description {
+  .card__description {
     font-family: $fonts-Playfair-Display;
     font-size: 14px;
     font-weight: 400;
