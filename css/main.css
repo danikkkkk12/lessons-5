@@ -30,27 +30,26 @@
   padding-left: 0;
   justify-content: center;
 }
-
-.card__item {
+.card .card__item {
   list-style: none;
   width: 420px;
   height: 546px;
 }
-.card__item .card__span {
+.card .card__item .card__span {
   font-family: "Ubuntu", sans-serif;
   font-size: 14px;
   color: #B4AD9E;
 }
-.card__item .card__image {
+.card .card__item .card__image {
   margin-bottom: 32px;
 }
-.card__item .card__title {
+.card .card__item .card__title {
   font-family: "Playfair Display", serif;
   font-size: 30px;
   font-weight: 400;
   color: #626262;
 }
-.card__item .card__description {
+.card .card__item .card__description {
   font-family: "Playfair Display", serif;
   font-size: 14px;
   font-weight: 400;

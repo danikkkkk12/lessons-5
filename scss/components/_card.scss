@@ -4,33 +4,35 @@
   gap: 63px;
   padding-left: 0;
   justify-content: center;
-}
 
-.card__item {
-  list-style: none;
-  width: 420px;
-  height: 546px;
-  // outline: 1px solid $color-outline;
+  .card__item {
+    list-style: none;
+    width: 420px;
+    height: 546px;
+    // outline: 1px solid $color-outline;
 
-  .card__span {
-    font-family: $fonts-Ubuntu;
-    font-size: 14px;
-    color: $color-for-card-title;
-  }
-  .card__image{
-    margin-bottom: 32px;
-  }
-  .card__title {
-    font-family: $fonts-Playfair-Display;
-    font-size: 30px;
-    font-weight: 400;
-    color: $color-for-article;
-  }
+    .card__span {
+      font-family: $fonts-Ubuntu;
+      font-size: 14px;
+      color: $color-for-card-title;
+    }
 
-  .card__description {
-    font-family: $fonts-Playfair-Display;
-    font-size: 14px;
-    font-weight: 400;
-    color: $color-for-article;
+    .card__image {
+      margin-bottom: 32px;
+    }
+
+    .card__title {
+      font-family: $fonts-Playfair-Display;
+      font-size: 30px;
+      font-weight: 400;
+      color: $color-for-article;
+    }
+
+    .card__description {
+      font-family: $fonts-Playfair-Display;
+      font-size: 14px;
+      font-weight: 400;
+      color: $color-for-article;
+    }
   }
 }
